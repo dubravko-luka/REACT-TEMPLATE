@@ -1,0 +1,11 @@
+@media (max-width: 991px) {
+  .sidebar {
+    position: fixed;
+    left: calc(var(--min-width-sidebar) * -1);
+    top: 0;
+    transition: all 300ms linear;
+  }
+  .sidebar.show-menu {
+    left: 0;
+  }
+}
